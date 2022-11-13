@@ -1,0 +1,21 @@
+.site{ 
+    height: 99vh;
+    margin: -8px;
+}
+
+
+.block__line {
+    border-bottom: 2px dashed #c2b59d;
+    width: 100%;
+    position: absolute;
+}
+
+
+.item{   
+    width: 25%;
+    /* display: inline-block; */
+    vertical-align: top;  
+    position: relative;
+    float: left;
+
+}
