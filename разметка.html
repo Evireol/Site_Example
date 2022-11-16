@@ -6,7 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="provision.png" type="image/x-icon">
   <title>Заготовка Сайта</title>
-    <link rel="stylesheet" href="style.css">
+    
+  <style type="text/css">
+    @import "nav.css";	
+    </style>
+    <script type="text/javascript" src="boxnav.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+
+
+
  </head>
  <body>
     <div id="page" class="site">
@@ -49,14 +58,20 @@
               <nav>           
                 <ul class="catalog_navigation">
                   <li><a href="#">Пункт</a></li>
-                  <input type="checkbox" id="menu">
-                  <label for="menu">Выпадающий пункт</label>
-                  <ul>
-                    <li><a href="#">Продукт 1</a></li>
-                    <li><a href="#">Продукт 2:</a></li>
-                    <li><a href="#">Продукт 3:</a></li>
-                    <li><a href="#">Продукт 4:</a></li>
-                  </ul>
+
+                      <ul class="lists_item" id="contentnav" >
+                           <li><a href="#ссылка">Меню 1</a> текст под меню 1</li>  
+                        <li><a href="#ссылка">Меню 2</a>текст под меню 2
+                          <ul>
+                            <li><a href="#ссылка">Подменю 1</a></li>
+                            <li><a href="#ссылка">Подменю 2</a></li>
+                            <li><a href="#ссылка">Подменю 3</a></li>
+                            <li><a href="#ссылка">Подменю 4</a></li>
+                        </ul>
+                          </li>
+                            <li><a href="#ссылка">Меню 3</a>текст под меню 3</li>
+                            <li><a href="#ссылка">Меню 4</a>текст под меню 4</li>
+                      </ul>
                 </ul>
             </nav>
             </aside>

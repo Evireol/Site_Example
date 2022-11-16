@@ -33,6 +33,14 @@
         flex-direction:column;
 
     }
+
+    .lists_item{   
+        display: flex;
+        vertical-align: top;  
+        position: relative;
+        flex-direction: column;
+    }
+
     .footer
     {
         display: flex;
@@ -175,8 +183,6 @@ border: 0;
 color: white;
 max-width: 100px
 }
-
-/* || main layout */
 
 /* main {
 display: flex;
