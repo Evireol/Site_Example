@@ -191,6 +191,7 @@ background-color: #7e5f7e;
 
 aside li {
 padding-bottom: 10px;
+display: block;
 }
 
 footer {
