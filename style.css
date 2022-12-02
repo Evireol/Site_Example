@@ -194,6 +194,15 @@ padding-bottom: 10px;
 display: block;
 }
 
+.link-menu-caterorii:hover
+{
+color:rgb(232, 0, 0);
+}
+.link-menu-pod_caterorii:hover
+{
+color:rgb(0, 163, 101);
+}
+
 footer {
 margin-top: 10px;
 }

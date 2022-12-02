@@ -49,7 +49,7 @@ boxnav={
 		return target;
 	},
 
-	//Вид либо подлкючение файла
+	//Вид либо подлкючение события
 	addEvent: function(elm, evType, fn, useCapture){
 		if (elm.addEventListener) 
 		{
