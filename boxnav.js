@@ -37,6 +37,14 @@ boxnav={
 		boxnav.cancelClick(e);
 	},
 
+	//Для работы ссылок
+	navigate:function(e){
+		var	li=boxnav.getTarget(e);
+		var target=li.getElementsByTagName('a')[0].getAttribute('href');
+		window.location=target;	
+		boxnav.cancelClick(e);
+	},
+
 /* helper methods */
 
 	//Реакция на нажиатие
