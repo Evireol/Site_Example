@@ -209,7 +209,6 @@ aside ul{
 aside li {
 padding-bottom: 10px;
 display: block;
-color: rgb(234, 228, 228);
 }
 
 aside summary {
@@ -251,18 +250,24 @@ details summary::-webkit-details-marker {
   /* Убирание стандартный маркер Firefox */
   details > summary {
     list-style: none;
+    border-bottom: 1px solid #e2e8f0;
+    
   }
   
   /* Добавление собственного маркера для закрытого состояния */
   details summary::after {
-    content: ' >';
-    font-family: 'Font Awesome 5 free';
-    margin-right: 7px;
+    content: '';
+    background: url("png/arrow.png") no-repeat 50% 50% / 1em 1em; ;
+    width: 1em;
+    height: 1em;  
+    position: absolute;
+    margin-top: 0.3em;
+    transition: transform .5s;
   }
   
   /* Добавление собственного маркера для открытого состояния */
   details[open] summary:after {
-    content: ' v';
+    transform: rotateZ(90deg);
   }
 
 .link-menu-caterorii:hover
