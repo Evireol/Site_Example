@@ -1,0 +1,25 @@
+@import "style.css";
+@media screen and (max-width: 600px) {
+  /* a {
+    color: rgb(21, 0, 255);
+  } */
+
+  .site_content
+  {
+    display: flex;
+    flex-direction:column;
+  }
+
+  .aside_column
+  {
+    width: 100%;
+
+  }
+  .list_flexible
+  {
+    /* height: 0px; */
+  }
+
+
+  
+}
