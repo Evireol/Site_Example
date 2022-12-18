@@ -1,5 +1,12 @@
 /* || General setup */
-@import "LittleSizeStyle.css";
+
+@media screen and (min-width: 600px) 
+{
+    .list_epigraph
+    {
+        pointer-events: none;
+    }
+}
 
     div.header_block__line {
         border-bottom: 2px dashed #882b2b;
@@ -296,7 +303,8 @@ details summary::-webkit-details-marker {
 {
 color:rgb(232, 0, 0);
 }
-.link-menu-pod_caterorii:hover
+
+.menu-pod_caterorii:hover
 {
 color:rgb(0, 163, 101);
 }
