@@ -1,8 +1,10 @@
 @import "style.css";
 @media screen and (max-width: 600px) {
-  /* a {
-    color: rgb(21, 0, 255);
-  } */
+
+  .navbar_expand
+  {
+    display: none;
+  }
 
   .site_content
   {
@@ -13,6 +15,10 @@
   .aside_column
   {
     width: 100%;
+  }
 
+  .list_epigraph
+  {
+    cursor: pointer;
   }
 }
