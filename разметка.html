@@ -6,6 +6,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <link rel='shortcut icon' href='png/provision.png' type='image/x-icon'>
     <title>Заготовка Сайта</title>
+    <link rel='stylesheet' href='reset.css'>
     <link rel='stylesheet' href='style.css'>
     <link rel='stylesheet' href='LittleSizeStyle.css'>
 
@@ -13,38 +14,62 @@
   </head>
   <body>
         <header class="header">
-          <div class="div-pre-header">
+          <div class="div-pre__header">
 
-            <div class="row-1-header">
-              <div class="row-1-1-header">
-                <a>1</a>
+            <div class="row-1__header">
+              <div class="row-1-1__header">
+                <a href="#id01">
+                <img class="header__picture-1" src="png/list.png">
+                </a>
               </div>
-              <div class="row-1-2-header">
-                <a>2</a>
+              <div class="row-1-2__header">
+                <img class="header__picture-2" src="png/at_sign.png">
+                <span class="text-uppercase__header">
+                  Эл.почта:
+                </span>
+                <a class="mail__header" href="mailto:takif2365@zx81.ovh">
+                  takif2365@zx81.ovh
+                <a>
               </div>
             </div>
 
-            <div class='row-2-header'>
-              <div class="row-2-item-header">
+            <div class='row-2__header'>
+              <div class="row-2-item__header">
                 <a>Лого</a>
               </div>
-              <div class="row-2-item-header">  
+              <div class="row-2-item__header">  
                 <a>Адрес</a>
               </div>
-              <div class="row-2-item-header">
+              <div class="row-2-item__header">
                 <a>Контакты</a>
               </div>
-              <div class="row-2-item-header">  
+              <div class="row-2-item__header">  
                 <a>Соцсеть и корзина</a>
               </div>
             </div>  
-
           </div>
           
         </header> 
 
-        <nav class='header_navigation'>
-              <ul class="navbar_expand">
+        <div id="id01" class="modal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <header class="container">
+                <a href="#" class="closebtn">×</a>
+              </header>
+              <div class="container">
+                <p>Главная</p>
+                <p>О нас</p>
+                <p>Контакты</p>
+                <p>Продукция</p>
+                <p>Галерея</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <nav class='head_navbar'>
+              <ul class="head_navbar-expand">
                 <li><a href='#'>Главная</a></li>
                 <li><a href='#'>О нас</a></li>
                 <li><a href='#'>Контакты</a></li>

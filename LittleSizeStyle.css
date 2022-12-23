@@ -1,7 +1,7 @@
 @import "style.css";
 @media screen and (max-width: 600px) {
 
-  .navbar_expand
+  .head_navbar-expand
   {
     display: none;
   }
@@ -21,4 +21,11 @@
   {
     cursor: pointer;
   }
+}
+
+@media screen and (max-width: 470px) {
+.text-uppercase__header
+{
+  display: none;
+}
 }
